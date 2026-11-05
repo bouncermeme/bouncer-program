@@ -1,0 +1,18 @@
+[package]
+name = "bouncer-auction-core"
+version = "0.1.0"
+edition = "2021"
+description = "Pure auction arithmetic for Bouncer: tick grid, clearing price, pro rata fills, window close rules, beacon round arithmetic. No Solana dependencies."
+license = "UNLICENSED"
+publish = false
+
+[lib]
+name = "auction_core"
+path = "src/lib.rs"
+
+[dependencies]
+
+[dev-dependencies]
+num-bigint = "0.4"
+num-traits = "0.2"
+proptest = "1"

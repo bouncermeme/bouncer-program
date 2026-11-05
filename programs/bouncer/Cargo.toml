@@ -1,0 +1,38 @@
+[package]
+name = "bouncer"
+version = "0.1.0"
+description = "Bouncer: sealed bid uniform price launch auction, decrypted on chain with drand timelock"
+edition.workspace = true
+rust-version.workspace = true
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "bouncer"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+anchor-debug = []
+custom-heap = []
+custom-panic = []
+# Raydium program and fee receiver ids for mainnet; devnet ids are the default.
+mainnet = []
+
+[dependencies]
+anchor-lang = "1.2.0"
+anchor-spl = "1.2.0"
+bouncer-auction-core = { path = "../../crates/auction-core" }
+num-bigint = "0.4"
+bytemuck = { version = "1", features = ["derive", "min_const_generics"] }
+solana-define-syscall = "5"
+solana-cpi = "3"
+solana-instruction = "3"
+solana-sha256-hasher = "3"
+# 0.29: the Instructions sysvar reader for the bid attestation (anchor-lang 1.2 does not re-export it).
+solana-instructions-sysvar = "3"
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(target_os, values("solana"))'] }

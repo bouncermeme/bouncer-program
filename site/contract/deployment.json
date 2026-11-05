@@ -1,0 +1,41 @@
+{
+  "program_id": "DK5RcZiHhp5uV99PgwTmBsZWwFJS4G9HrDAsEbPRPu9r",
+  "cluster": "devnet",
+  "interface_version": "0.32",
+  "types_dir": "idl/v0.32",
+  "deployed_in_slot": "518421588",
+  "upgrade_authority": "CncYTro29aHddHExphL1Z6HomW29jKqZnjHq7zuMHu2b",
+  "program_data_account": "5jyAcRZ5GQYWh14BXQTsQPLjmvGHX6te6DxrnEv8L3cq",
+  "on_chain": {
+    "bytes": 1133112,
+    "last_non_zero_byte": 1133097,
+    "data_length": 1198176,
+    "sha256": "39e266f45038bfeb03bb222844511fee402dd1a077bb9b368fd0871eb7f41c12"
+  },
+  "build": {
+    "file": "bouncer_v32_v3_39e266f4.so",
+    "sha256": "39e266f45038bfeb03bb222844511fee402dd1a077bb9b368fd0871eb7f41c12",
+    "bytes": 1133112,
+    "matches_on_chain": true
+  },
+  "idl_sha256": "ca0dd49525d2a3943963285ae7ed8b2c6289ff67ddbcf00e5d9ebb12a41d4e3f",
+  "config": {
+    "address": "4GRaVPGQa7Reh7M3Byqh9EEa2BrtTLt22jG27ysyttXs",
+    "len": 632,
+    "version": 1,
+    "admin": "CncYTro29aHddHExphL1Z6HomW29jKqZnjHq7zuMHu2b",
+    "lp_owner": "7tiZk3DyeGXZg8hfBFEk1qQ4XKMXmNpshBc29G3rgNuq",
+    "floor_value": "10000000000",
+    "min_bid": "17683840",
+    "abort_after_secs": "43200",
+    "delivery_fee_bps": 0,
+    "creator_lp_bps": 2188,
+    "crank_bond": "60000000",
+    "emergency_update_pause": 0,
+    "emergency_update_pause_ts": "0",
+    "raise_fee_bps": 100,
+    "raise_fee_creator_share_bps": 5000
+  },
+  "read_at_slot": 518428549,
+  "recorded_at": "2026-11-04T02:38:05.699Z"
+}

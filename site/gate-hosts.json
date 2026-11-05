@@ -1,0 +1,13 @@
+{
+  "devnet": [
+    "https://bouncer.meme",
+    "https://www.bouncer.meme",
+    "https://bouncer-devnet.vercel.app",
+    "https://bouncer-devnet-bouncer-meme.vercel.app"
+  ],
+  "mainnet": [
+    "https://bouncer.meme",
+    "https://www.bouncer.meme",
+    "https://bouncer-mainnet.vercel.app"
+  ]
+}

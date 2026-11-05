@@ -1,0 +1,19 @@
+# Bouncer
+
+> Solana token launches by sealed-bid auction: every winner pays the same clearing price, and what does not fill is refunded.
+
+## Pages
+
+- [Bouncer: a Solana launchpad with one price for everyone](https://bouncer.meme): A Solana launchpad where everyone who gets in pays the same market cap, set by a sealed-bid auction.
+- [How it works](https://bouncer.meme/how): How a Bouncer launch runs: one sealed-bid auction, one clearing price for every winner, refunds for the rest.
+- [Fees and terms](https://bouncer.meme/fees): Every rule and fee a Bouncer launch carries, read from the program's config.
+- [Guide](https://bouncer.meme/guide): Creating and bidding on Bouncer, step by step: the auction, the price, tokens, refunds, fees and timelines.
+- [FAQ](https://bouncer.meme/faq): Short answers about bidding and creating on Bouncer.
+- [Whitepaper](https://bouncer.meme/whitepaper): How Bouncer runs a launch, what it costs, and what you are trusting.
+- [Create a launch](https://bouncer.meme/create): Start a sealed-bid token launch on Solana: name, ticker, image and window. Everything else is the same on every launch.
+- [Terms of Use](https://bouncer.meme/terms): The terms for using the Bouncer site.
+- [Privacy Policy](https://bouncer.meme/privacy): What the Bouncer site collects, and what it does not.
+- [Cookies and storage](https://bouncer.meme/cookies): Every cookie and browser storage item the Bouncer site uses.
+- [Risk Disclosure](https://bouncer.meme/risk): Read this before you bid or create a launch on Bouncer.
+- [Trust](https://bouncer.meme/trust): What runs Bouncer and who can change it: the program, its build, the upgrade authority, the treasury, the keepers and the official accounts.
+- [Stats](https://bouncer.meme/stats): Bouncer in numbers: launches, SOL raised, liquidity locked forever, refunds and creator earnings, read from the chain.
